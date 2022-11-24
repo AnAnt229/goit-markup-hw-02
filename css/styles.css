@@ -1,0 +1,224 @@
+:root{
+--color-text-primary: #212121;
+--color-text-secondary: #757575;
+--color-active: #2196F3;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+background: #F5F5F5;
+}
+
+.logo, .logo-second-color{
+text-decoration: none;
+}
+
+.logo{
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--color-text-primary);
+    }
+
+
+.logo-second-color{
+    color: var(--color-active);
+}
+
+.nav-style{
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-text-primary);
+    text-decoration: none;
+
+}
+
+
+
+.nav-contacts{
+    color: var(--color-text-secondary);
+    height: 16px;
+    width: 122px;
+    left: 1263px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-style:hover,
+.nav-contacts:hover{
+    color: var(--color-active);
+}
+
+.nav-style:focus-visible,
+.nav-contacts:focus-visible {
+    color: var(--color-active);
+    /* border: 0px; */
+}
+
+.hero-section{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+}
+
+.hero-title{
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    position: absolute;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button{
+    background-color: var(--color-active);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    /* margin: 692px, 30px, 692px, 200px; */
+}
+
+.hero-button-text{
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.benefits h3 {
+    width: 270px;
+        height: 16px;
+        left: 215px;
+        top: 774px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+}
+
+.benefits p {
+    width: 270px;
+    height: 72px;
+    left: 215px;
+    top: 800px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secondary);
+}
+
+.activity > h2 {
+    /* position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 966px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-primary);
+}
+
+.team > h2 {
+    /* position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1540px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-primary);
+}
+
+.team h3{
+    /* position: absolute;
+    height: 19px;
+    top: 1922px; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--color-text-primary);
+}
+
+.team p{
+    /* position: absolute;
+        width: 147px;
+        height: 19px;
+        left: 577px;
+        top: 1951px; */
+        font-size: 16px;
+        line-height: 19px;
+        /* text-align: center; */
+        letter-spacing: 0.03em;
+        color: var(--color-text-secondary);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo{
+    color: #FFFFFF;
+}
+
+.adress{
+    
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.footer-contacts{
+
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+}
