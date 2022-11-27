@@ -4,6 +4,7 @@
 --color-active: #2196F3;
 --background-color: #F5F5F5;
 --background-color-second:#F5F4FA;
+--background-color-hero-footer:#2F303A;
 }
 
 body{
@@ -20,14 +21,10 @@ text-decoration: none;
 }
 
 .logo{
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--color-text-primary);
     }
@@ -38,30 +35,19 @@ text-decoration: none;
 }
 
 .nav-style{
-    width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-text-primary);
     text-decoration: none;
-
 }
-
-
 
 .nav-contacts{
     color: var(--color-text-secondary);
-    height: 16px;
-    width: 122px;
-    left: 1263px;
-    top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -71,30 +57,20 @@ text-decoration: none;
     color: var(--color-active);
 }
 
-.nav-style:focus-visible,
-.nav-contacts:focus-visible {
+.nav-style:focus,
+.nav-contacts:focus {
     color: var(--color-active);
     /* border: 0px; */
 }
 
 .hero-section{
-    background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-
+    background-color: var(--background-color-hero-footer);
 }
 
 .hero-title{
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    position: absolute;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -104,23 +80,13 @@ text-decoration: none;
 .hero-button{
     background-color: var(--color-active);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    position: absolute;
     border-radius: 4px;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-    /* margin: 692px, 30px, 692px, 200px; */
 }
 
 .hero-button-text{
-    width: 152px;
-    height: 30px;
-    left: 724px;
-    top: 440px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -128,37 +94,24 @@ text-decoration: none;
     cursor: pointer;
 }
 
-.benefits h3 {
-    width: 270px;
-        height: 16px;
-        left: 215px;
-        top: 774px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
+.benefits-titles{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
-.benefits p {
-    width: 270px;
-    height: 72px;
-    left: 215px;
-    top: 800px;
+.benefits-text{
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-text-secondary);
 }
 
-.activity > h2 {
-    /* position: absolute;
-    width: 366px;
-    height: 42px;
-    left: 617px;
-    top: 966px; */
+.activity-title, .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-text-primary);
@@ -168,47 +121,23 @@ text-decoration: none;
     background-color: var(--background-color-second);
 }
 
-.team > h2 {
-    /* position: absolute;
-    width: 264px;
-    height: 42px;
-    left: 668px;
-    top: 1540px; */
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--color-text-primary);
-}
-
-.team h3{
-    /* position: absolute;
-    height: 19px;
-    top: 1922px; */
+.team-workers{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    /* text-align: center; */
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--color-text-primary);
 }
 
-.team p{
-    /* position: absolute;
-        width: 147px;
-        height: 19px;
-        left: 577px;
-        top: 1951px; */
-        font-size: 16px;
-        line-height: 19px;
-        /* text-align: center; */
-        letter-spacing: 0.03em;
-        color: var(--color-text-secondary);
+.job-title{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secondary);
 }
 
 .footer{
-    background-color: #2F303A;
+    background-color: var(--background-color-hero-footer);
 }
 
 .footer-logo{
@@ -216,18 +145,16 @@ text-decoration: none;
 }
 
 .adress{
-    
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
-        font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
 }
 
 .footer-contacts{
-
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -240,16 +167,12 @@ text-decoration: none;
 /* Сторінка портфоліо */
 
 .portfolio-buttons{
-/* width: 125px;
-    height: 38px;
-    left: 593px;
-    top: 174px; */
     color: #F5F4FA;
     border: 0px;
 }
 
 .portfolio-buttons:hover, 
-.portfolio-buttons:focus-visible {
+.portfolio-buttons:focus {
     background-color: var(--color-active);
 /* color: #FFFFFF; */
 }
@@ -258,28 +181,28 @@ text-decoration: none;
     color: var(--color-text-primary);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
 
 }
 
 .port-button-text:hover,
-.port-button-text:focus-visible {
+.port-button-text:focus {
     color: #FFFFFF;
 }
 
 .project-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em; 
     color: var(--color-text-primary);
 }
 
 .portfolio-project{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--color-text-secondary);
 }
